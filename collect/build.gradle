@@ -10,7 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
         ndk {
-            abiFilters  "armeabi-v7a","x86"/*,"armeabi", "mips"*/
+            abiFilters  "armeabi-v7a","x86"
         }
     }
     buildTypes {
@@ -23,7 +23,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    //    compile project(':face_sdk')
     compile files('libs/facesdk.jar')
     compile files('libs/ast.jar')
     compile files('libs/baidu_license.jar')

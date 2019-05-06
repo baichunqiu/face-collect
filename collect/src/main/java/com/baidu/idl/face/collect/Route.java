@@ -39,13 +39,13 @@ public class Route {
         Intent intent = new Intent();
         switch (route) {
             case Collect:
-                intent.setClass(c, FaceCollectActivity.class);
+                intent.setClass(c, CollectActivity.class);
                 break;
             case Setting:
                 intent.setClass(c, SettingActivity.class);
                 break;
             default:
-                intent.setClass(c, FaceCollectLivenessActivity.class);
+                intent.setClass(c, LivenessCollectActivity.class);
                 break;
         }
         return intent;

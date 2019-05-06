@@ -37,12 +37,13 @@
         android:supportsRtl="true">
 
         <activity
-            android:name="com.baidu.idl.face.collect.FaceCollectActivity"
+            android:name="com.baidu.idl.face.collect.CollectActivity"
             android:launchMode="singleTask"
             android:theme="@style/Theme_NoTitle" />
         <activity
-            android:name="com.baidu.idl.face.collect.FaceCollectLivenessActivity"
+            android:name="com.baidu.idl.face.collect.LivenessCollectActivity"
             android:launchMode="singleTask"
+            android:screenOrientation="landscape"
             android:theme="@style/Theme_NoTitle" />
         <activity
             android:name="com.baidu.idl.face.collect.SettingActivity"
