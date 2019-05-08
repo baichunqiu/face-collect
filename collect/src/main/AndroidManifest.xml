@@ -39,15 +39,17 @@
         <activity
             android:name="com.baidu.idl.face.collect.CollectActivity"
             android:launchMode="singleTask"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme_NoTitle" />
         <activity
             android:name="com.baidu.idl.face.collect.LivenessCollectActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="landscape"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme_NoTitle" />
         <activity
             android:name="com.baidu.idl.face.collect.SettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme_NoTitle" />
-        <!--android:screenOrientation="landscape"-->
     </application>
 </manifest>
